@@ -18,7 +18,7 @@ if (year) year.textContent = new Date().getFullYear();
 const form = document.querySelector("#contact-form");
 const status = document.querySelector("#form-status");
 // Replace this placeholder with your real business email before publishing.
-const CONTACT_EMAIL = "hello@bringeaiwebbie.com";
+const CONTACT_EMAIL = "bringeaiwebbie@gmail.com";
 if (form) {
   form.addEventListener("submit", event => {
     event.preventDefault();
